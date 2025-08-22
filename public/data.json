@@ -1,0 +1,466 @@
+{
+    "meta": {
+        "format": "JSON",
+        "version": "1.1.0",
+        "projectId": "one-wiseman",
+        "resourcePath": [],
+        "recursive": false,
+        "creationTime": 1755784672,
+        "app": "firefoo"
+    },
+    "data": {
+        "__collections__": {
+            "batches": {
+                "scet_cse_a": {
+                    "assignments": {
+                        "assignment_1": {
+                            "config": {
+                                "number_of_attempts": true,
+                                "reveal_answer": true,
+                                "show_results": true,
+                                "shuffle_options": true,
+                                "shuffle_questions ": true
+                            },
+                            "questions": [
+                                "question_1",
+                                "question_2"
+                            ]
+                        }
+                    },
+                    "__collections__": {}
+                }
+            },
+            "client_config": {
+                "scet": {
+                    "client_type": "college",
+                    "contract_end_date": {
+                        "__time__": "2025-08-30T18:30:00.034Z"
+                    },
+                    "max_licences": "1500",
+                    "name": "Swarnandra College of Engineering",
+                    "plan": "plan text",
+                    "__collections__": {}
+                }
+            },
+            "clients": {
+                "scet": {
+                    "alternative_emails": [
+                        "vamsi.txt@gmail.com",
+                        "raju@skillyheads.com"
+                    ],
+                    "assessments": {
+                        "assessment_1": {
+                            "config": {
+                                "can_skip_questions": true,
+                                "shuffle_options": true,
+                                "shuffle_questions": true
+                            },
+                            "id": "assessment_1",
+                            "questions": [
+                                "question_1",
+                                "question_2"
+                            ]
+                        }
+                    },
+                    "assignments": {
+                        "assignment_1": {
+                            "id": "assignment_1",
+                            "questions": [
+                                "question_1"
+                            ],
+                            "tags": [
+                                "arrays",
+                                "ds"
+                            ]
+                        },
+                        "assignment_2": {
+                            "id": "assignment_2",
+                            "questions": [
+                                "question_1",
+                                "question_2"
+                            ],
+                            "tags": [
+                                "arrays",
+                                "ds"
+                            ]
+                        }
+                    },
+                    "batches": {
+                        "scet_cse_a": {
+                            "assessments": {
+                                "assessment_1": {
+                                    "auto_submit": true,
+                                    "max_time": 30,
+                                    "start_date": {
+                                        "__time__": "2025-08-21T06:30:00.996Z"
+                                    },
+                                    "status": "active",
+                                    "target_date": {
+                                        "__time__": "2025-08-21T10:30:00.504Z"
+                                    }
+                                }
+                            },
+                            "assignments": {
+                                "assignment_1": {
+                                    "start_date": {
+                                        "__time__": "2025-08-07T18:30:00.996Z"
+                                    },
+                                    "status": "active",
+                                    "target_date": {
+                                        "__time__": "2025-08-30T18:30:00.504Z"
+                                    }
+                                },
+                                "assignment_2": {
+                                    "start_date": {
+                                        "__time__": "2025-08-07T18:30:00.996Z"
+                                    },
+                                    "status": "active",
+                                    "target_date": {
+                                        "__time__": "2025-08-30T18:30:00.504Z"
+                                    }
+                                }
+                            },
+                            "batch_id": "scet_cse_a",
+                            "batch_name": "CSE-A",
+                            "end_date": {
+                                "__time__": "2025-08-29T18:30:00.695Z"
+                            },
+                            "mandatory_practices": {
+                                "assessment_1": {
+                                    "config": {
+                                        "target_date": {
+                                            "__time__": "2025-08-08T18:30:00.520Z"
+                                        }
+                                    }
+                                }
+                            },
+                            "start_date": {
+                                "__time__": "2025-08-07T18:30:00.666Z"
+                            },
+                            "status": "active",
+                            "tutor_notifications": [
+                                "bring the worksheets while coming to classroom"
+                            ],
+                            "visibility": "visible"
+                        },
+                        "scet_cse_b": {
+                            "assessments": {}
+                        }
+                    },
+                    "primary_email": "srikrishna.txt@gmail.com",
+                    "questions": {
+                        "question_1": {
+                            "question_description": "Question Description",
+                            "question_text": "Write a program to find the numbers divisible by 7 in the given array",
+                            "tags": [
+                                "arrays",
+                                "programming_basics",
+                                "tcs"
+                            ],
+                            "type": "programming"
+                        },
+                        "question_2": {
+                            "question_description": "Write a program to check if the given number is palindrome or not , you may use any programming language ",
+                            "question_text": "Write a program to check if the given number is palindrome or not , you may use any programming language",
+                            "tags": [
+                                "arrays",
+                                "programming_basics",
+                                "wipro"
+                            ]
+                        }
+                    },
+                    "__collections__": {}
+                }
+            },
+            "private_config": {
+                "client_config": {
+                    "types": [
+                        "college",
+                        "individual",
+                        "company"
+                    ],
+                    "__collections__": {}
+                }
+            },
+            "public_config": {
+                "questions": {
+                    "types": [
+                        "programming",
+                        "theory",
+                        "mcq_single",
+                        "mcq_multiple"
+                    ],
+                    "__collections__": {}
+                }
+            },
+            "questions": {
+                "question_1": {
+                    "additional_config": "",
+                    "question_description": "Question Description",
+                    "question_text": "Write a program to find the numbers divisible by 7 in the given array",
+                    "tags": [
+                        "arrays",
+                        "programming_basics",
+                        "tcs"
+                    ],
+                    "type": "programming",
+                    "__collections__": {}
+                },
+                "question_2": {
+                    "additional_config": "",
+                    "question_description": "Write a program to check if the given number is palindrome or not , you may use any programming language ",
+                    "question_text": "Write a program to check if the given number is palindrome or not  ",
+                    "tags": [
+                        "programming_basics",
+                        "wipro",
+                        "loops"
+                    ],
+                    "type": "programming",
+                    "__collections__": {}
+                }
+            },
+            "submissions": {
+                "scet": {
+                    "assessments": {
+                        "assessment_1": {
+                            "srikrishna.txt@gmail.com": [
+                                {
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 90,
+                                            "quality_percentage": 65,
+                                            "wiseman_comments": "\"\""
+                                        },
+                                        "question_2": {
+                                            "completeness_percentage": 90,
+                                            "quality_percentage": 65,
+                                            "wiseman_comments": "\"\""
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-13T01:46:48.490Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "1"
+                                },
+                                {
+                                    "focus_loss_count": 2,
+                                    "paste_count": 5,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 80,
+                                            "quality_percentage": 75,
+                                            "wiseman_comments": "The student correctly identifies the core logic for determining divisibility by 7 using the modulo operator. The `for-each` loop is also used appropriately. However, the code is missing a definition for the `print` method, which results in a compilation error. The use of a more descriptive variable name than `nums` could improve readability. For example, `numbers` would be better. Suggestion: Implement the `print` function either using `System.out.println()` or by defining a custom function. Also consider adding a comment explaining the purpose of the program at the beginning. You could also consider handling edge cases, like an empty array, to improve robustness."
+                                        },
+                                        "question_2": {
+                                            "completeness_percentage": 95,
+                                            "quality_percentage": 85,
+                                            "wiseman_comments": "The code successfully determines if a number is a palindrome. The logic is clear and well-structured. Variable names are descriptive. Good job on including comments to explain the steps. However, it currently only works for a hardcoded number. To make it more robust, you should take the number as input from the user using `scanner.nextInt()`. Although you initialized the scanner, you did not use it to get the number from the user. Also, it would be good to handle potential exceptions, such as the user entering non-integer input. Consider using a try-catch block for this. Finally, make sure to close the scanner in a `finally` block to ensure it's always closed, even if an exception occurs. Overall, it is a good solution with a few improvements that can make it more complete and robust."
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-21T06:56:08.045Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "2"
+                                },
+                                {
+                                    "focus_loss_count": 2,
+                                    "paste_count": 2,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 80,
+                                            "quality_percentage": 75,
+                                            "wiseman_comments": "The code correctly identifies numbers divisible by 7 within the array. The use of the enhanced for loop is a good choice for iterating through the array. However, the code is missing the definition of the `print` method. Standard practice is to use `System.out.println()` for printing output to the console. I would recommend using `System.out.println(num)` to properly display the divisible numbers. Consider also adding a comment explaining what the program does at the beginning, and perhaps another comment explaining the condition `num % 7 == 0`. These small improvements will greatly improve the readability and maintainability of your code. Also, consider testing more edge cases, such as negative numbers and zero."
+                                        },
+                                        "question_2": {
+                                            "completeness_percentage": 95,
+                                            "quality_percentage": 85,
+                                            "wiseman_comments": "The code effectively checks if a number is a palindrome. Good job on reversing the number using a `while` loop and the modulo operator. The code is also well-structured and easy to follow. The variable names are descriptive, which enhances readability. However, the code currently uses a hardcoded input value (151). To make it more versatile, you should prompt the user for input using `Scanner.nextInt()`. Also, although closing the scanner is good practice, it can cause issues if standard input is used elsewhere. Consider closing the scanner in a `finally` block, or not closing it at all if standard input is shared. For further improvement, you could add error handling to handle cases where the user enters non-numeric input. You could also consider edge cases like negative numbers or numbers with leading zeros."
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-21T07:17:19.435Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "3"
+                                }
+                            ]
+                        }
+                    },
+                    "assignments": {
+                        "assignment_1": {
+                            "srikrishna.txt@gmail.com": [
+                                {
+                                    "focus_loss_count": 0,
+                                    "paste_count": 3,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 0,
+                                            "quality_percentage": 10,
+                                            "wiseman_comments": "The code provides a basic class structure but lacks any implementation to solve the problem. It doesn't include any input array, logic to iterate through the array, or any divisibility checks. To improve, you need to: 1. Declare and initialize an integer array. 2. Use a loop (e.g., `for` loop) to iterate through the array elements. 3. Inside the loop, use the modulo operator (`%`) to check if each number is divisible by 7. 4. Print the numbers that are divisible by 7. Remember to test your code with different input arrays to ensure it works correctly."
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-20T20:54:00.304Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "1"
+                                },
+                                {
+                                    "focus_loss_count": 5,
+                                    "paste_count": 11,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 100,
+                                            "quality_percentage": 85,
+                                            "wiseman_comments": "The code is correct and addresses the problem statement. The logic for finding numbers divisible by 7 is implemented correctly. The code is also readable. However, a better variable name than `nums` could improve readability further. Also, the `print` method is not standard Java. It would be better to use `System.out.println()` for printing. Good job overall!"
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-20T21:08:31.223Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "2"
+                                }
+                            ]
+                        },
+                        "assignment_2": {
+                            "srikrishna.txt@gmail.com": [
+                                {
+                                    "focus_loss_count": 0,
+                                    "paste_count": 0,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 100,
+                                            "quality_percentage": 85,
+                                            "wiseman_comments": "The code successfully finds and prints the numbers divisible by 7 in the given array. It's well-structured and easy to understand.\n\nHere are some suggestions for improvement:\n\n*   **Print function:** The code uses a `print()` function, which is not a standard Java function. It should be replaced with `System.out.println()` for printing to the console.\n*   **Naming:** Consider renaming the class from `question_1` to something more descriptive, such as `DivisibleBySevenFinder`.\n*   **Comments:** The introductory comments are helpful but could be removed in a final version of the code as they are instructions. The comment block is also a little verbose; consider using Javadoc-style comments for class and method documentation in more complex projects.\n*   **Error Handling/Input Validation:** While not required for this specific problem, consider how you might handle cases where the input array is null or empty in a more robust solution.\n\nOverall, this is a solid solution. Keep practicing and exploring ways to make your code even more readable and robust!"
+                                        },
+                                        "question_2": {
+                                            "completeness_percentage": 0,
+                                            "quality_percentage": 0,
+                                            "wiseman_comments": "The student has only included comments and boilerplate code. There is no actual implementation to determine if a number is a palindrome. Therefore, the code is incomplete and lacks any practical quality. Consider implementing the palindrome check logic, including reading input, reversing the number, and comparing the original and reversed numbers. Start with a simple approach and then explore more efficient methods for reversing the number."
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-21T06:31:58.158Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "1"
+                                },
+                                {
+                                    "focus_loss_count": 0,
+                                    "paste_count": 0,
+                                    "results": {
+                                        "question_1": {
+                                            "completeness_percentage": 80,
+                                            "quality_percentage": 75,
+                                            "wiseman_comments": "The code correctly identifies numbers divisible by 7. However, it's missing a crucial part: the `print` function is not a standard Java function. To fix this, you should use `System.out.println()` instead. Also, adding comments to explain the logic would enhance readability. Good job on using the enhanced for loop, it makes the code cleaner!"
+                                        },
+                                        "question_2": {
+                                            "completeness_percentage": 95,
+                                            "quality_percentage": 85,
+                                            "wiseman_comments": "The code correctly implements the palindrome check and provides clear output. The variable names are descriptive, and the logic is easy to follow. Good job on storing the original number for comparison. A minor improvement would be to take the input from the user instead of hardcoding it. You should also consider adding input validation to ensure that the user enters a valid number. Also, you do not need the comment block at the top of the code as these are instructions only. Keep up the good work!"
+                                        }
+                                    },
+                                    "submission_date": {
+                                        "__time__": "2025-08-21T07:13:47.874Z"
+                                    },
+                                    "user_email": "srikrishna.txt@gmail.com",
+                                    "version": "2"
+                                }
+                            ]
+                        }
+                    },
+                    "__collections__": {}
+                }
+            },
+            "users": {
+                "5Yl5o0O659dZWPtzYY6j": {
+                    "apikey": "\"AIzaSyDbvCUzuXOa24ToXPA1IQa6uGLYwQpg6fc\"",
+                    "clients": {
+                        "scet": {
+                            "batches": [
+                                "\"scet_cse_a\"",
+                                "\"scet_exams\""
+                            ],
+                            "settings": {
+                                "default_language": "\"java\""
+                            },
+                            "status": "\"active\""
+                        }
+                    },
+                    "current_session_client": "\"scet\"",
+                    "default_client": "\"scet\"",
+                    "default_language": "\"java\"",
+                    "email": "\"raju@skillyheads.com\"",
+                    "last_used_client": "\"scet\"",
+                    "mobile_number": "\"8367399638\"",
+                    "modelName": "\"gemini-2.0-flash\"",
+                    "__collections__": {}
+                },
+                "6hl51c0SeqfUQjbIedpt6DM1JNp1": {
+                    "apiKey": "AIzaSyDbvCUzuXOa24ToXPA1IQa6uGLYwQpg6fc",
+                    "clients": {
+                        "scet": {
+                            "batches": [
+                                "scet_cse_a",
+                                "scet_exams"
+                            ],
+                            "settings": {
+                                "default_language": "java"
+                            },
+                            "status": "active"
+                        },
+                        "skillyheads": {
+                            "batches": [
+                                "ai",
+                                "pyheads2026"
+                            ],
+                            "status": "inactive"
+                        }
+                    },
+                    "current_session_client": "scet",
+                    "default_client": "scet",
+                    "default_language": "java",
+                    "email": "srikrishna.txt@gmail.com",
+                    "last_used_client": "scet",
+                    "mobile_number": "99888776654",
+                    "modelName": "gemini-2.0-flash",
+                    "__collections__": {}
+                },
+                "NItd8ABoAuW1vuOjOTKcy9Wpfb42": {
+                    "apiKey": "AIzaSyDbvCUzuXOa24ToXPA1IQa6uGLYwQpg6fc",
+                    "clients": {
+                        "scet": {
+                            "batches": [
+                                "scet_cse_a"
+                            ],
+                            "settings": {
+                                "default_language": "python"
+                            },
+                            "status": "active"
+                        },
+                        "skillyheads": {
+                            "batches": [
+                                "ai",
+                                "pyheads2026"
+                            ],
+                            "status": "inactive"
+                        }
+                    },
+                    "current_session_client": "scet",
+                    "default_client": "scet",
+                    "default_language": "python",
+                    "email": "vamsi.txt@gmail.com",
+                    "last_used_client": "scet",
+                    "mobile_number": "9150591595",
+                    "modelName": "gemini-2.0-flash",
+                    "__collections__": {}
+                }
+            }
+        }
+    }
+}
+
+

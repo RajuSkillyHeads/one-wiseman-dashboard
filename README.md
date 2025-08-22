@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# One Wiseman Admin Dashboard - React Version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based admin dashboard for the One Wiseman educational platform, featuring real-time data from Firebase.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-time Firebase Integration**: Fetches data directly from Firestore
+- **Interactive Charts**: Built with Chart.js and react-chartjs-2
+- **Responsive Design**: Modern glass-morphism UI with purple theme
+- **Client Filtering**: Filter data by specific clients
+- **Comprehensive Analytics**: KPIs, charts, and detailed tables
+- **User Management**: View users and their submission history
+- **Multi-page Navigation**: Dashboard, Users, Clients, Batches, Assignments, Assessments, Questions
 
-### `npm start`
+## Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Dashboard**: Overview with KPIs, charts, and recent submissions
+2. **Users**: User management with links to individual user details
+3. **Clients**: Client information and statistics
+4. **Batches**: Batch management and details
+5. **Assignments**: Assignment tracking and management
+6. **Assessments**: Assessment management and statistics
+7. **Questions**: Question bank and categorization
+8. **User Detail**: Individual user profile with submission history
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Stack
 
-### `npm test`
+- **React 18**: Modern React with hooks
+- **React Router**: Client-side routing
+- **Firebase**: Real-time data from Firestore
+- **Chart.js**: Interactive data visualization
+- **CSS3**: Modern styling with CSS variables and glass-morphism effects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Data Structure
 
-### `npm run eject`
+The dashboard connects to Firebase collections:
+- `clients`: Client information
+- `users`: User profiles and settings
+- `batches`: Student batch management
+- `assignments`: Assignment definitions
+- `assessments`: Assessment configurations
+- `questions`: Question bank
+- `submissions`: Student submissions and results
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Anonymous Authentication**: Secure access to Firebase data
+- **Real-time Updates**: Live data from Firestore
+- **Client Filtering**: Filter all data by specific clients
+- **Interactive Charts**: 
+  - Submissions over time
+  - Average scores comparison
+  - Submission type distribution
+  - Question type distribution
+- **Responsive Tables**: Sortable and filterable data tables
+- **User Profiles**: Detailed user information and submission history
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The dashboard uses a modern glass-morphism design with:
+- Purple color scheme
+- Glass-like panels with backdrop blur
+- Subtle dot grid background
+- Responsive grid layouts
+- Smooth animations and transitions
 
-## Learn More
+## Firebase Configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app is configured to connect to the One Wiseman Firebase project with anonymous authentication enabled for secure data access.
